@@ -1,0 +1,162 @@
+/* @import url(reset.css); */
+
+body{
+    padding: 125px;
+    width: 33.867cm;
+    height: 100%;
+    max-height: 1200px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+li{
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+h2, h4 {
+    display: inline;
+}
+
+/* header */
+header{
+    position: absolute;
+    width: inherit;
+    height: 189px;
+    top:0px;
+    left: 366px;
+    padding-left: 48px;
+    padding-right: 48px;
+
+    background: #FFFFFF;
+    border-bottom: 3px dashed rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Gamja Flower', cursive;
+}
+
+#title {
+    position: relative;
+    width: inherit;
+    font-size: 1.5em;
+    color: rgb(50,50,50);
+}
+
+/* left bar */
+.left-bar{
+    position: fixed;
+    width: 366px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #FFAEBC 0%, #FBE7C6 100%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#profile-img{
+    width: 120px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+#menu{
+    margin: 119px;
+    color: white;
+    line-height: 210%;
+    font-family: 'Gugi', cursive;
+}
+
+#menu a{
+    padding: 8px;
+    font-family: 'Gowun Dodum', sans-serif
+}
+
+#menu a:hover{
+    font-weight: bold;
+    background-color: white;
+}
+
+/* main page */
+.container{
+    position: absolute;
+    width: inherit;
+    height: 100%;
+    left: 366px;
+    top: 192px;
+    margin-top: 60px;
+    padding-left: 48px;
+    padding-right: 48px;
+    text-align: center;
+    background-color:white;
+    overflow: auto;
+}
+
+.main{
+    margin:0px;
+    padding: 100px;
+    position: relative;
+    width: 60%;
+    height: 70%;
+}
+
+.main->p{
+    margin: 0px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 24px;
+    margin-left: 24px;
+    font-size: 8px;
+    color: gray;
+}
+
+#title1 {
+    padding-bottom: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Gamja Flower', cursive;
+    color: rgb(65, 65, 65);
+}
+
+.knock{
+    align-items: center;
+    width: 1280px;
+    height: 437px;
+    overflow: hidden;
+}
+
+.knock img {
+    width: 812px;
+    transition: all 0.2s linear;
+}
+
+.knock:hover img {
+    transform: scale(1.4);
+}
+
+#textarea {
+    padding-top: 16px;
+    color: rgb(75, 75, 75);
+    font-family: 'Gowun Dodum', sans-serif;
+    line-height: 180%;
+}
